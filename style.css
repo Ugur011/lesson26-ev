@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    width: 98vw;
+    height: 109vh;
+    background-color: black;
+    color: snow;
+    display: flex;
+    justify-content: space-around;
+}
+.first-slice{
+    width: 555px;
+    background: url(./img/BG.png) no-repeat;
+    padding: 30px;
+}
+.first-slice h1{
+    font-size: 53px;
+    margin: 10px;
+}
+.first-slice input[type="text"]{
+    width: 330px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.6);
+}
+.first-slice input[type="number"]{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.6);
+
+}
+.first-slice input[type="number"]::placeholder{
+    color: black;
+}
+.first-slice button{
+    width: 50px;
+    padding: 6px;
+    border: 2px rgba(255, 215, 0, 1) solid;
+    border-radius: 6px;
+    color: rgba(255, 215, 0, 1);
+    background: transparent;
+}
+.to-do{
+    position: relative;
+    left: 18px;
+    text-align: center;
+    margin: 30px;
+    font-size: 22px;
+    width: 330px;
+    border-bottom: rgba(255, 215, 0, 1) solid;
+}
+.to-do i{
+    position: relative;
+    font-size: 19px;
+}
+.second-slice img{
+    width: 555px;
+}
